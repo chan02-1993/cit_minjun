@@ -1,0 +1,29 @@
+"n = 4729
+total = 0
+while n > 0:
+    total += n % 10
+    n //= 10
+    # ◀ 기록
+print(total)"
+"a, b = 0, 1
+for _ in range(6):
+    a, b = b, a + b
+    # ◀ 기록
+print(a, b)"
+"n = 20
+count = 0
+while n > 0:
+    n -= 6
+    count += 1
+    # ◀ 기록
+print(n, count)"
+"total = 0
+for i in range(1, 10, 3):
+    total += i
+    print(i, total)
+    # ◀ 기록"
+"s = 0
+for i in range(5):
+    s += i
+    # ◀ 기록
+print(s)"
